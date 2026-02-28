@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(86, 135, 135);
+}
+header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   nav ul li{
+     align-items:center ;
+     justify-content: center;
+     columns: 15px;
+   }
+   
